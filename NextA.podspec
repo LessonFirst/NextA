@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NextA"
-  s.version      = "15"
+  s.version      = "16"
   s.summary      = "NextA."
 
   # This description is used to generate tags and improve search results.
@@ -137,5 +137,7 @@ Pod::Spec.new do |s|
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
     s.dependency "NextB_Category"
+    s.dependency "HandyFrame"
+
 
 end
