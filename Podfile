@@ -8,7 +8,8 @@ use_frameworks!
 
 target 'NextA' do
  
-pod "NextB_Category", :path => "../NextB_Category"
+# pod "NextB_Category", :path => "../NextB_Category"
+pod "NextB_Category"
 pod 'HandyFrame'
 
 end
