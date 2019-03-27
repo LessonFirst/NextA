@@ -8,6 +8,7 @@
 
 #import "Target_NextA.h"
 #import "AViewController.h"
+#import "NextADownManager.h"
 
 @implementation Target_NextA
 
@@ -15,6 +16,11 @@
 {
     AViewController *viewController = [[AViewController alloc] init];
     return viewController;
+}
+- (NextADownManager *)Action_NextADownLoadWithType:(DownLoadFileType)type completion:(ActionCompletion)completion{
+     NextADownManager *downLoadManager = [NextADownManager sharedInstance];
+    [downLoadManager startDownLoadActionWithType:type Completion:completion];
+    return downLoadManager;
 }
 
 

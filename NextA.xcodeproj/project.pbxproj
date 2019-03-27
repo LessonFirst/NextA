@@ -18,6 +18,7 @@
 		CDF3CA55224B5C6E0013A1E3 /* NextAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF3CA54224B5C6E0013A1E3 /* NextAUITests.m */; };
 		CDF3CAA7224B5E430013A1E3 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF3CAA5224B5E430013A1E3 /* AViewController.m */; };
 		CDF3CAF7224B7F7F0013A1E3 /* Target_NextA.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF3CAF5224B7F7F0013A1E3 /* Target_NextA.m */; };
+		CDF3CAFA224B82630013A1E3 /* NextADownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF3CAF9224B82630013A1E3 /* NextADownManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		69EA71E3ACAF8F7B935E0214 /* Pods-NextA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextA.release.xcconfig"; path = "Target Support Files/Pods-NextA/Pods-NextA.release.xcconfig"; sourceTree = "<group>"; };
 		B46572C281C0419E1B4522D3 /* Pods-NextA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextA.debug.xcconfig"; path = "Target Support Files/Pods-NextA/Pods-NextA.debug.xcconfig"; sourceTree = "<group>"; };
+		CD76B516224B8518004A8B69 /* NextADefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextADefine.h; sourceTree = "<group>"; };
 		CDF3CA2D224B5C6D0013A1E3 /* NextA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF3CA30224B5C6D0013A1E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDF3CA31224B5C6D0013A1E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +62,8 @@
 		CDF3CAA6224B5E430013A1E3 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		CDF3CAF5224B7F7F0013A1E3 /* Target_NextA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_NextA.m; sourceTree = "<group>"; };
 		CDF3CAF6224B7F7F0013A1E3 /* Target_NextA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_NextA.h; sourceTree = "<group>"; };
+		CDF3CAF8224B82630013A1E3 /* NextADownManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextADownManager.h; sourceTree = "<group>"; };
+		CDF3CAF9224B82630013A1E3 /* NextADownManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextADownManager.m; sourceTree = "<group>"; };
 		E001575BBD53F09B950C2DBC /* Pods_NextA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -169,6 +173,9 @@
 				CDF3CAF4224B7F7F0013A1E3 /* Targets */,
 				CDF3CAA5224B5E430013A1E3 /* AViewController.m */,
 				CDF3CAA6224B5E430013A1E3 /* AViewController.h */,
+				CDF3CAF8224B82630013A1E3 /* NextADownManager.h */,
+				CDF3CAF9224B82630013A1E3 /* NextADownManager.m */,
+				CD76B516224B8518004A8B69 /* NextADefine.h */,
 			);
 			path = NextA;
 			sourceTree = "<group>";
@@ -176,8 +183,8 @@
 		CDF3CAF4224B7F7F0013A1E3 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				CDF3CAF5224B7F7F0013A1E3 /* Target_NextA.m */,
 				CDF3CAF6224B7F7F0013A1E3 /* Target_NextA.h */,
+				CDF3CAF5224B7F7F0013A1E3 /* Target_NextA.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -365,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF3CAFA224B82630013A1E3 /* NextADownManager.m in Sources */,
 				CDF3CAF7224B7F7F0013A1E3 /* Target_NextA.m in Sources */,
 				CDF3CAA7224B5E430013A1E3 /* AViewController.m in Sources */,
 				CDF3CA35224B5C6D0013A1E3 /* ViewController.m in Sources */,
